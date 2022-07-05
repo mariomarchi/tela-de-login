@@ -3,10 +3,29 @@
 body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
+    background: #201b2c;
 }
 
 body * {
     box-sizing: border-box;
+}
+
+.presentation-disclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+}
+
+.presentation-disclaimer > h4 {
+    color: #00ff88;
+    border: 0px;
+}
+
+.presentation-disclaimer > h5 {
+    color: #00ffbf;
+    border: 0px;
 }
 
 .main-login {
@@ -111,6 +130,10 @@ body * {
     .card-login {
         width: 85%;
     }
+
+    .presentation-disclaimer {
+        width: 85%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,5 +156,9 @@ body * {
     }
     .card-login {
         width: 90%;
+    }
+    .presentation-disclaimer {
+        width: 100%;
+        height: auto;
     }
 }
