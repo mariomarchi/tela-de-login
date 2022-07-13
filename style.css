@@ -10,24 +10,6 @@ body * {
     box-sizing: border-box;
 }
 
-.presentation-disclaimer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px 35px;
-}
-
-.presentation-disclaimer > h4 {
-    color: #00ff88;
-    border: 0px;
-}
-
-.presentation-disclaimer > h5 {
-    color: #00ffbf;
-    border: 0px;
-}
-
 .main-login {
     width: 100vw;
     height: 100vh;
@@ -49,6 +31,20 @@ body * {
 .left-login > h1 {
     color: #77ffc0;
     font-size: 3vw;
+}
+
+.left-login > h5 {
+    color: whitesmoke;
+    font-size: 0.80vw;
+    margin-bottom: 0.5px;
+    margin-top: 0.5px;
+}
+
+.left-login > h6 {
+    color: whitesmoke;
+    font-size: 0.80vw;
+    margin-bottom: 0.5px;
+    margin-top: 0.5px;
 }
 
 .left-login-image {
@@ -130,10 +126,6 @@ body * {
     .card-login {
         width: 85%;
     }
-
-    .presentation-disclaimer {
-        width: 85%;
-    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -156,9 +148,5 @@ body * {
     }
     .card-login {
         width: 90%;
-    }
-    .presentation-disclaimer {
-        width: 100%;
-        height: auto;
     }
 }
